@@ -3,6 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
+      - mvn install
       - npm install
   build:
     commands:
